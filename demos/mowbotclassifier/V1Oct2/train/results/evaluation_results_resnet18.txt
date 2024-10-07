@@ -1,0 +1,18 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+        dirt       0.90      1.00      0.95       482
+ short_grass       1.00      0.88      0.94       482
+  tall_grass       0.97      0.98      0.98       482
+       weeds       0.98      0.97      0.98       482
+
+    accuracy                           0.96      1928
+   macro avg       0.96      0.96      0.96      1928
+weighted avg       0.96      0.96      0.96      1928
+
+
+Confusion Matrix:
+[[482   0   0   0]
+ [ 52 425   3   2]
+ [  0   1 474   7]
+ [  0   0  13 469]]

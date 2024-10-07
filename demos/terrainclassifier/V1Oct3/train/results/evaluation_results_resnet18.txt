@@ -1,0 +1,18 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+        dirt       0.99      0.96      0.97       314
+         hay       1.00      1.00      1.00       314
+        road       0.96      0.99      0.97       314
+       weeds       1.00      1.00      1.00       314
+
+    accuracy                           0.99      1256
+   macro avg       0.99      0.99      0.99      1256
+weighted avg       0.99      0.99      0.99      1256
+
+
+Confusion Matrix:
+[[302   0  12   0]
+ [  0 314   0   0]
+ [  4   0 310   0]
+ [  0   0   0 314]]
